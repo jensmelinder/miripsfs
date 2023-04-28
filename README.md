@@ -9,8 +9,8 @@ Currently available models (work in progress):
 - F560W
 
 Each model directory contains three files: 
-(i) *emp_psf.fits, model with custom masking (masking regions with remaining background flux)
-(ii) *emp_nomask_psf.fits, stacked model without any post-processing.
-(iii) *emp_snrmask_psf.fits, model where pixels with SNR<3 have been masked. SNR is defined as the signal in the stacked model divided by the standard deviation per pixel over the stacked star thumbnails.
+(i) *emp_psf.fits, model with custom masking (masking regions with remaining background flux)  
+(ii) *emp_nomask_psf.fits, stacked model without any post-processing.  
+(iii) *emp_snrmask_psf.fits, model where pixels with SNR<3 have been masked. SNR is defined as the signal in the stacked model divided by the standard deviation per pixel over the stacked star thumbnails.  
 
 The models are supplied as-is, if you decide to use them for published work make sure to check that they are applicable to what you need (in particular the note on drizzled images above). If you use them please add a citation to xxx.
